@@ -1,0 +1,12 @@
+[package]
+name = "vulkano_triangle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = "1.12.1"
+image = { version = "0.24.3", features = [] }
+vulkano = "0.30.0"
+vulkano-shaders = "0.30.0"
